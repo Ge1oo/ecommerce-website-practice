@@ -5,10 +5,10 @@ const Hero = () => {
   return (
     <div className="w-full h-[500px] flex gap-12 !my-10">
       {/* Left Container */}
-      <div className="w-full h-full flex flex-col text-start gap-8">
+      <div className="w-full max-w-full h-full flex flex-col text-start gap-8">
         <p className="text-sm text-sky-500">Lorem Ipsum Dolor</p>
         <p className="text-5xl leading-15">Consult your doctor <br />from home</p>
-        <p className="w-[620px]">
+        <p className="w-full max-w-[620px] ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
           suscipit eveniet pariatur alias qui sapiente aspernatur velit quasi
           magnam unde. Fuga ipsa, quo pariatur nihil.
@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
 
       {/* Right Container */}
-      <div className="w-full h-full">
+      <div className="w-full max-w-full h-full">
         <img src="/images/image-sample.jpg" className="w-full h-full object-cover rounded-2xl"/>
       </div>
     </div>
