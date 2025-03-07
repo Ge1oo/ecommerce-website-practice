@@ -3,7 +3,7 @@ import Button from "./shared-component/Button";
 const Navbar = () => {
   const navLinks = [
     {
-      label: "services",
+      label: "services", 
     },
     {
       label: "doctors",
